@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Word</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <p id="text">Test</p>
+        </div>
+        <div class="row form-group">
+            <div class="col">
+                <input class="w-100 form-control form-control-color" type="color" id="colorPicker">
+            </div>
+            <div class="col">
+                <input class="form-control" type="number" id="fontSize" value="30">
+            </div>
+            <div class="col">
+                <select id="fontFamily" class="form-select form-control">
+                    <option value="Arial">Arial</option>
+                    <option value="Garamond">Garamond</option>
+                    <option value="Verdana">Verdana</option>
+                </select>
+            </div>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
